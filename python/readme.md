@@ -22,6 +22,7 @@ Your tests should be in a subdirectory called tests.
     3. Add __init__ file to allow directory locating
         1. type: code __init__.py
     4. add test files
+           **all test files should start with test_**
         1. Unit tests
         2. Integration tests
         3. End to End tests
