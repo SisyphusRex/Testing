@@ -53,3 +53,5 @@ Create setUp in Test Class:
     def setUp(self):
     self.protocol_droid = Protocol("Steel", "Red", 2)
 * now you can call self.protocol_droid in subsequent test methods
+
+Individual tests should have Arrange, Act, Assert sections
