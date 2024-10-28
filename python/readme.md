@@ -46,4 +46,9 @@ Spoof User Input using Monkeypatch:
     except StopIteration:
     pass
 
-
+Create setUp in Test Class:
+* A setUp method allows you to instantiate objects needed for assertion tests
+* class ProtocolDroidTest(TestCase):
+    def setUp(self):
+    self.protocol_droid = Protocol("Steel", "Red", 2)
+* now you can call self.protocol_droid in subsequent test methods
